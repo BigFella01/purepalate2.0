@@ -1,0 +1,25 @@
+-- PUREPALATE 2.0 --
+
+-- Pages --
+/                       
+/findrecipes - This page will enable the user to find recipes based on 
+an ingredient, or various health categories. Nutritional info will be provided
+for these recipes. 
+
+/buildrecipes - This page will enable the user to create their own recipes 
+and save them to their account. Nutritional info will also be provided for 
+these recipes. 
+
+/foodinfo - This page will enable the user to get information about various
+foods and dishes via ChatGPT API. 
+
+/about - This page will provide the user with information about this project and
+its inspiration. 
+
+
+
+
+PRISMA NOTES
+
+1. After making adjustments to the database in schema.prisma, run npx
+prisma migrate to commit your changes to the actual SQLITE database. 
