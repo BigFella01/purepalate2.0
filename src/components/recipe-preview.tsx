@@ -104,7 +104,7 @@ export default function RecipePreview({
       </div>
 
       <Link
-        href={isCreated ? `/myrecipes/${id}` : `/findrecipe/recipes/${id}`}
+        href={isCreated ? `/myrecipes/${id}` : `/recipefinder/recipes/${id}`}
         underline="hover"
         className="flex flex-col text-black relative"
       >
